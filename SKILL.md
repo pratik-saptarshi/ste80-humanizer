@@ -1,14 +1,16 @@
 ---
 name: ste80-humanizer
 description: |
-  Rewrite AI-sounding text so it reads like a clear, careful person wrote it, using the
-  "80% of the way to ASD-STE100" method that Andrej Karpathy shared. Pass 1 removes the
-  26 AI tells from Wikipedia's "Signs of AI writing" (not-X-but-Y, one-line closers, forced
-  triads, dashes everywhere, stock AI words, inflated claims, chatbot residue). Pass 2
-  rebuilds the text with the structure of Simplified Technical English: one idea per
-  sentence, short sentences, active voice, simple tenses, plain words. Use it whenever the
-  user wants text humanized, de-AI'd, made clearer, simpler or less robotic, asks for
-  ASD-STE100 or STE, or wants docs, READMEs, emails, posts or answers tightened.
+  Rewrite text into ASD-STE100-style structured plain English, using the "80% of the
+  way to ASD-STE100" method that Andrej Karpathy shared. Pass 1 removes the 26 AI tells
+  from Wikipedia's "Signs of AI writing" (not-X-but-Y, one-line closers, forced triads,
+  dashes everywhere, stock AI words, inflated claims, chatbot residue). Pass 2 rebuilds
+  the text with the structure of Simplified Technical English (rules S1 to S15): one
+  idea per sentence, short sentences, active voice, simple tenses, plain words. Use it
+  when the user asks for STE, ASD-STE100, or Simplified Technical English, or wants
+  technical text made plain and structured: documentation, procedures, runbooks,
+  instructions, and specifications that must be unambiguous. For general humanizing or
+  de-AI editing of prose, use the humanizer skill instead.
 license: MIT
 metadata:
   version: "4.0.0"
