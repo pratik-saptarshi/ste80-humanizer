@@ -12,6 +12,8 @@ description: |
   instructions, and specifications that must be unambiguous. For general humanizing or
   de-AI editing of prose, use the humanizer skill instead.
 license: MIT
+fork_of: "Dodaios/ste80-humanizer"
+fork_version: 1
 metadata:
   version: "4.0.0"
   author: "Dodaios"
